@@ -1,0 +1,11 @@
+@import '_normailze.scss';
+@import './bootstrap/bootstrap-grid.scss';
+// variables goes here
+$color: #00fff0;
+// import blocks here
+@import '../blocks/nav/nav';
+@import '../blocks/header/header';
+@import '../blocks/services/services';
+@import '../blocks/callTo/callTo';
+@import '../blocks/support/support';
+@import '../blocks/footer/footer';

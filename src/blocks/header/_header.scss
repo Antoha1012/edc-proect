@@ -1,0 +1,35 @@
+.header {
+  &__wrapper {
+    padding-top: 30px;
+    height: 528px;
+    background: #242424;
+    margin: 0 auto;
+  }
+  &__images {
+    padding: 0;
+    max-width: 1380px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    filter: grayscale(100%);
+  }
+  &__images-adaptive {
+    padding: 0;
+    max-width: 290px;
+    width: 100%;
+    display: none;
+    margin: 0 auto;
+    filter: grayscale(100%);
+  }
+}
+@media (max-width: 576px) {
+  .header__images {
+   display: none;
+  }
+  .header__images-adaptive{
+    display: block;
+  }
+  .header__wrapper{
+    height: 500px;
+  }
+}
