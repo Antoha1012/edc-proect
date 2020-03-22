@@ -41,7 +41,7 @@
     }
   }
 }
-@media(max-width: 576px){
+@media(max-width: 768px){
   .services{
     &__title{
       display: none;
@@ -54,6 +54,7 @@
       display: none;
     }
     &__content-picture--adaptive{
+      width: 100%;
       display: block;
     }
   }

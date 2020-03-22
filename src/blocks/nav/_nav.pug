@@ -64,10 +64,17 @@ mixin nav
                             stop(offset='0.5', stop-color='#FBE400')
                             stop(offset='0.75', stop-color='#A9CC39')
                             stop(offset='1', stop-color='#51B84A')
-                .nav__btn
-                    i.fa.fa-bars
-                .nav__list
-                    a.nav__link(href="#") послуги
-                    a.nav__link(href="#") про компанію
-                    a.nav__link(href="#") Партнери
-                    a.nav__link(href="#") Контакти
+                input(id="nav", type="checkbox", name="").d-none.nav__checkbox             
+                label(for="nav").nav__burger
+                    span.nav__line
+                    span.nav__line
+                    span.nav__line        
+                ul.nav__list.d-flex.align-content-between
+                    li.nav__item
+                        a.nav__link(href="#") послуги
+                    li.nav__item
+                        a.nav__link(href="#") про компанію
+                    li.nav__item
+                        a.nav__link(href="#") Партнери
+                    li.nav__item
+                        a.nav__link(href="#") Контакти

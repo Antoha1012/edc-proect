@@ -15,21 +15,24 @@
   }
   &__images-adaptive {
     padding: 0;
-    max-width: 290px;
     width: 100%;
     display: none;
     margin: 0 auto;
     filter: grayscale(100%);
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .header__images {
    display: none;
   }
   .header__images-adaptive{
+    height: 400px;
+    padding: 0 15px;
+    object-fit: cover;
     display: block;
   }
   .header__wrapper{
     height: 500px;
   }
 }
+
