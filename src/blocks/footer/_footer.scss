@@ -81,6 +81,33 @@
     color: #a3a3a3;
   }
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer{
+    &__content {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    &__content--section {
+      display: grid;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 30px;
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+    &__content--section2 {
+      margin: 0 auto;
+      margin-top: 60px;
+      margin-right: 250px;
+    }
+    &__content--section3 {
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 60px;
+      margin-right: 100px;
+    }
+  }
+}
 @media (max-width: 576px) {
   .footer {
     &__content {

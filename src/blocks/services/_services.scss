@@ -41,7 +41,43 @@
     }
   }
 }
-@media(max-width: 768px){
+@media(max-width: 1200px){
+  .services{
+    &__title{
+      display: none;
+    }
+    &__content{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    &__content-picture{
+      display: none;
+    }
+    &__content-picture--adaptive{
+      width: 100%;
+      display: block;
+    }
+  }
+}
+@media(max-width: 992px){
+  .services{
+    &__title{
+      display: none;
+    }
+    &__content{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    &__content-picture{
+      display: none;
+    }
+    &__content-picture--adaptive{
+      width: 100%;
+      display: block;
+    }
+  }
+}
+@media(max-width: 576px){
   .services{
     &__title{
       display: none;

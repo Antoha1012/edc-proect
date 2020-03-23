@@ -36,6 +36,17 @@
     }
   }
 }
+@media (max-width: 1200px) {
+  .wrapper {
+    border-left: 15px solid #242424;
+    border-right: 15px solid #242424;
+  }
+  .nav{
+    &__logo {
+      width: 170px;
+    }
+  }
+}
 @media (max-width: 768px) {
   .wrapper {
     background: #ffffff;
@@ -96,9 +107,9 @@
       top: 67px;
       left: 0px;
       z-index: 30;
-      width: calc(100% + 30px);
+      width: calc(100% + 55px);
       height: 400px;
-      margin-left: -15px;
+      margin-left: -25px;
       padding-top: 100px;
       transform: translateX(-200%);
       background-color: #242424;
