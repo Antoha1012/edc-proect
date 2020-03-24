@@ -1,0 +1,15 @@
+extends ../template/layout.pug
+
+//- include blocks here
+
+include ../blocks/nav__services/_nav__services.pug
+include ../blocks/header__services/_header__services.pug
+include ../blocks/services/_services.pug
+include ../blocks/footer/_footer.pug
+
+block page
+    //- type pug code here
+    +nav__services
+    +header__services
+    +services
+    +footer

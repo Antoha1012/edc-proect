@@ -3,6 +3,7 @@
     padding-bottom: 56px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-left: -15px;
   }
   &__content--section {
     margin-top: 60px;
@@ -10,11 +11,11 @@
   }
   &__content--section2 {
     margin-top: 62px;
-    margin-left: 118px;
+    margin-left: 114px;
   }
   &__content--section3 {
     margin-top: 62px;
-    margin-left: 138px;
+    margin-left: 128px;
   }
   &__wrapper {
     background: #6e6e6f;
@@ -69,7 +70,6 @@
 .copy {
   &__text {
     margin: 0;
-    margin-left: 30px;
     padding: 16.5px 0;
     font-family: "Roboto";
     font-style: normal;

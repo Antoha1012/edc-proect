@@ -1,8 +1,8 @@
-mixin nav
-    .wrapper
+mixin nav__services
+    .wrapper__services
         .container
-           .nav.d-flex.align-items-center.justify-content-between
-                svg.nav__logo(width='303', height='32', viewbox='0 0 303 32', fill='none', xmlns='http://www.w3.org/2000/svg')
+           .nav__services.d-flex.align-items-center.justify-content-between
+                svg.nav__services-logo(width='303', height='32', viewbox='0 0 303 32', fill='none', xmlns='http://www.w3.org/2000/svg')
                     path(d='M53.4325 8.0136V14.5256H63.18V16.9283H53.4325V23.4403H64.0128V25.843H51.0435V5.62451H64.0128V8.02725H53.4325V8.0136Z', fill='#010101')
                     path(d='M78.1836 11.0444V25.0513C76.1222 25.7749 74.1972 26.1298 72.4088 26.1298C70.8798 26.1162 69.5692 25.6793 68.4634 24.8192C67.3576 23.9592 66.8115 22.7578 66.8115 21.2151V11.0444H69.0914V21.2424C69.0914 22.0616 69.419 22.7168 70.0743 23.1947C70.7296 23.6861 71.5078 23.9319 72.4088 23.9455C73.774 23.9455 74.9481 23.7817 75.8901 23.4541V11.0444H78.1836Z', fill='#010101')
                     path(d='M88.5047 10.8804V13.0237C88.2316 12.9691 87.8357 12.9418 87.3033 12.9418C86.3477 12.9418 85.5559 13.1875 84.9142 13.6654C84.2726 14.1568 83.9586 14.8258 83.9586 15.7131V25.8565H81.6787V15.7131C81.6787 14.1568 82.2384 12.9418 83.3716 12.0817C84.5047 11.2217 85.7879 10.7848 87.2351 10.7711C87.7129 10.7575 88.1361 10.7984 88.5047 10.8804Z', fill='#010101')
@@ -64,17 +64,24 @@ mixin nav
                             stop(offset='0.5', stop-color='#FBE400')
                             stop(offset='0.75', stop-color='#A9CC39')
                             stop(offset='1', stop-color='#51B84A')
-                input(id="nav", type="checkbox", name="").d-none.nav__checkbox             
-                label(for="nav").nav__burger
-                    span.nav__line
-                    span.nav__line
-                    span.nav__line        
-                ul.nav__list.d-flex.align-content-between
-                    li.nav__item
-                        a.nav__link(href="services.html") послуги
-                    li.nav__item
-                        a.nav__link(href="#") про компанію
-                    li.nav__item
-                        a.nav__link(href="#") Партнери
-                    li.nav__item
-                        a.nav__link(href="#") Контакти
+                input(id="nav", type="checkbox", name="").d-none.nav__services-checkbox             
+                label(for="nav").nav__services-burger
+                    span.nav__services-line
+                    span.nav__services-line
+                    span.nav__services-line        
+                ul.nav__services-list.d-flex.align-content-between
+                    li.nav__services-item.nav__services-item--first
+                        a.nav__services-link(href="#") послуги
+                        ul.nav__services-sublist
+                            li.nav__services-subitem
+                                a.nav__services-sublink(href="#") Послуги хмарного ЦОД
+                            li.nav__services-subitem 
+                                a.nav__services-sublink(href="#") EDC Colocation
+                            li.nav__services-subitem 
+                                a.nav__services-sublink(href="#") EDC Consulting
+                    li.nav__services-item
+                        a.nav__services-link(href="#") про компанію
+                    li.nav__services-item
+                        a.nav__services-link(href="#") Партнери
+                    li.nav__services-item
+                        a.nav__services-link(href="#") Контакти
