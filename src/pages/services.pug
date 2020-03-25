@@ -3,6 +3,7 @@ extends ../template/layout.pug
 //- include blocks here
 
 include ../blocks/nav/_nav.pug
+include ../blocks/nav__wrapper/_nav__wrapper.pug
 include ../blocks/header__services/_header__services.pug
 include ../blocks/services/_services.pug
 include ../blocks/footer/_footer.pug
@@ -10,6 +11,7 @@ include ../blocks/footer/_footer.pug
 block page
     //- type pug code here
     +nav
+        +wrapper
     +header__services
     +services
     +footer
