@@ -1,5 +1,6 @@
 .call {
   display: flex;
+  position: relative;
   &__title {
     font-family: "Roboto";
     font-style: normal;
@@ -47,9 +48,8 @@
     background: #6e6e6f;
     padding-top: 98px;
     padding-bottom: 68px;
-    padding-right: 118px;
+    padding-right: 70px;
     padding-left: calc(calc(100vw - 1080px) / 2 - 30px);
-   
   }
   &__img {
     display: block;
