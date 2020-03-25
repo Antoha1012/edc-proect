@@ -32,7 +32,7 @@
 @media (max-width: 1200px) {
   .header {
     &__images {
-      height: 400px;
+      height: 360px;
       padding: 0 15px;
       object-fit: cover;
       display: block;
@@ -51,7 +51,7 @@
       display: none;
     }
     &__images-adaptive2 {
-      height: 400px;
+      height: 360px;
       padding: 0 15px;
       object-fit: fill;
       display: block;
@@ -64,10 +64,13 @@
 @media (max-width: 576px) {
   .header {
     &__images {
+      height: 100%;
+      width: 100%;
+      object-fit: fill;
       display: none;
     }
     &__images-adaptive {
-      height: 390px;
+      height: 360px;
       padding: 0 15px;
       display: block;
     }
