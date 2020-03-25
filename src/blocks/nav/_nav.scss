@@ -8,7 +8,6 @@
   display: none;
 }
 .nav {
-  margin-top: -10px;
   height: 67px;
   &__list {
     margin-right: 7px;
@@ -64,6 +63,7 @@
       display: none;
     }
     &__logo {
+      margin: 0;
       width: 170px;
     }
     &__burger {
