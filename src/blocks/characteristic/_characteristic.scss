@@ -1,0 +1,129 @@
+.characteristic {
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #232323;
+    margin-top: 114px;
+    margin-left: 62px;
+    position: relative;
+  }
+  &__list {
+    margin-left: calc(calc(100vw - 1144px) / 2 - 30px);
+    margin-top: 108px;
+  }
+  &__item {
+    list-style-type: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232323;
+    max-width: 438px;
+    position: relative;
+    &:before {
+      content: "";
+      display: block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: #e92429;
+      position: absolute;
+      top: 9px;
+      left: -17px;
+    }
+  }
+  &__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  &__image {
+    display: block;
+    margin-top: -212px;
+    margin-left: -235px;
+    z-index: -1;
+  }
+  &__section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  &__box2-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #232323;
+    max-width: 246px;
+    margin: 0;
+    margin-top: 108px;
+  }
+  &__box2-text--1 {
+    margin-top: 94px;
+    margin-left: 30px;
+  }
+  &__box2-text--2 {
+    margin-top: 86px;
+    margin-left: 30px;
+  }
+  &__box2-text--3 {
+    margin-top: 58px;
+    margin-left: 30px;
+  }
+  &__box2-text--4 {
+    margin-top: 36px;
+    margin-left: 30px;
+  }
+  &__box2-image1 {
+    display: block;
+    margin-top: 93px;
+    margin-left: 369px;
+  }
+  &__box2-image2 {
+    display: block;
+    margin-top: 70px;
+    margin-left: 30px;
+  }
+  &__box2-image3 {
+    display: block;
+    margin-top: 36px;
+    margin-left: 397px;
+  }
+  &__box2-image4 {
+    display: block;
+    margin-top: 36px;
+    margin-left: 30px;
+  }
+  &__btn {
+    margin-bottom: -42px;
+    outline: none;
+    border: none;
+    margin-top: 130px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #47b649;
+    box-shadow: 0px 6px 22px rgba(0, 0, 0, 0.2);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 13px 25px;
+    &:hover {
+      color: #47b649;
+      background-color: #fff;
+      border: 1px solid #47b649;
+    }
+    &:active {
+      opacity: 0.5;
+    }
+  }
+}

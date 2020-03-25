@@ -1,4 +1,5 @@
 .services {
+  margin-top: 75px;
   &__title {
     margin-top: 75px;
     font-family: "Roboto";
@@ -25,8 +26,11 @@
       font-weight: bold;
       font-size: 24px;
       line-height: 36px;
+      text-decoration: none;
       text-transform: uppercase;
       color: #232323;
+      display: block;
+      margin-top: 24px;
       margin-bottom: 9.5px;
     }
     &-subtitle {

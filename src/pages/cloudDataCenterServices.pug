@@ -1,0 +1,17 @@
+extends ../template/layout.pug
+
+//- include blocks here
+
+include ../blocks/nav/_nav.pug
+include ../blocks/nav__wrapper/_nav__wrapper.pug
+include ../blocks/services__cloudData/_services__cloudData.pug
+include ../blocks/characteristic/_characteristic.pug
+include ../blocks/footer/_footer.pug
+
+block page
+    //- type pug code here
+    +nav
+        +wrapper
+    +services__cloudData
+    +characteristic
+    +footer
