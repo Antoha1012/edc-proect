@@ -45,12 +45,11 @@
   }
   &__content {
     background: #6e6e6f;
-    min-width: 769px;
     padding-top: 98px;
     padding-bottom: 68px;
     padding-right: 118px;
     padding-left: calc(calc(100vw - 1080px) / 2 - 30px);
-    z-index: 2;
+   
   }
   &__img {
     display: block;
