@@ -15,7 +15,6 @@
     text-transform: uppercase;
     color: #232323;
     position: relative;
-    z-index: 2;
   }
   &__section-title {
     font-family: "Roboto";
@@ -52,6 +51,7 @@
     display: block;
     margin-left: -56px;
     margin-top: -18px;
+    z-index: -1;
   }
   &__section2-image {
     margin-left: 232px;
@@ -167,38 +167,30 @@
       display: grid;
       grid-template-columns: 1fr;
     }
-    &__title {
+    &__cloudData-title {
       margin: 0;
-
       font-size: 20px;
+      text-align: center;
+      margin-top: 52px;
     }
     &__section-title {
       margin: 0;
       font-size: 20px;
-      max-width: 456px;
-      margin-top: 100px;
     }
     &__section-subtitle {
-      margin-top: 12px;
       margin: 0;
-      max-width: 527px;
-      font-family: "Roboto";
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 24px;
-      color: #232323;
+      margin-top: 20px;
     }
-    &__section-subtitle--second {
-      margin-top: 24px;
-      margin: 0;
-      max-width: 499.5px;
+    &__section-box1 {
+      grid-row-start: 2;
+      padding: 0 15px;
+      text-align: justify;
+      margin-top: 20px;
     }
     &__section1-image {
-      display: block;
-      width: 100%;
-
       margin: 0;
+      margin-top: 80px;
+      width: 100%;
     }
     &__section2-image {
       margin: 0;
@@ -207,103 +199,73 @@
     }
     &__section-box--second {
       margin: 0;
+      padding: 25px 15px;
     }
     &__section2-title {
       margin: 0;
+      font-size: 20px;
+      line-height: 28px;
+      margin-bottom: 16px;
     }
     &__section2-subtitle {
       margin: 0;
-      margin-top: 14px;
-      max-width: 575px;
-      font-family: "Roboto";
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 24px;
-      color: #ffffff;
+      text-align: justify;
     }
     &__section2-subtitle--2 {
+      margin: 0;
       margin-top: 23px;
-      margin: 0;
-    }
-    &__section2-subtitle--3 {
-      padding-left: 8px;
-      margin: 0;
     }
     &__section-title--third {
-      margin-top: 124px;
       margin: 0;
+      font-size: 20px;
     }
     &__section3-image {
       display: block;
       width: 100%;
-      margin-left: 14px;
-      margin-top: -27px;
       margin: 0;
     }
-
     &__section-subtitle--third {
-      margin-top: 34px;
-    }
-    &__section-subtitle--third2 {
-      margin-top: 25px;
+      margin-top: 10px;
     }
     &__section4-image {
-      width: 100%;
-      margin-left: 385px;
-      margin-top: 134px;
-      display: block;
       margin: 0;
+      width: 100%;
+      display: block;
     }
     &__section-title--forth {
-      margin-top: 79px;
-      margin-bottom: 37px;
-      margin-left: 22px;
       margin: 0;
+      margin-top: 10px;
+      padding: 0 15px;
     }
-
     &__section-subtitle--forth {
       margin: 0;
-      margin-left: -126px;
-      max-width: 675px;
+      padding: 0 15px;
+      text-align: justify;
     }
     &__section-title--fifth {
-      margin-top: 115px;
+      margin-top: 10px;
     }
     &__section-subtitle--fifth {
       margin: 0;
-      margin-top: 22px;
-      max-width: 487px;
-      margin-left: calc(calc(100vw - 1100px) / 2 - 30px);
+      margin-top: 10px;
     }
     &__section-subtitle--fifth2 {
       margin: 0;
-      max-width: 487px;
-      margin-left: calc(calc(100vw - 1100px) / 2 - 30px);
     }
     &__section5-image {
       display: block;
+      margin: 0;
       width: 100%;
-      margin-left: -103px;
-      margin-top: -14px;
     }
     &__section6-image {
       display: block;
-      width: 100%;
-      margin-left: 232px;
-      margin-top: 65px;
       margin: 0;
-    }
-    &__section2-title--sixth {
-      max-width: 372px;
+      margin-top: 50px;
+      width: 100%;
     }
     &__section-box--sixth {
-      margin-top: 79px;
-      margin-left: -43px;
-      padding-left: 58px;
-      padding-top: 87px;
       margin: 0;
-      background: linear-gradient(270deg, #808285 0%, #58595b 98.21%), #535353;
+      padding: 20px 15px;
     }
   }
 }

@@ -139,74 +139,68 @@
     }
     &__title {
       margin: 0;
-      z-index: 5;
-      position: relative;
-      margin-top: 100px;
+      margin-top: 40px;
+      font-size: 20px;
     }
     &__list {
-      margin-left: calc(calc(100vw - 1144px) / 2 - 30px);
-      margin-top: 108px;
+      grid-row-start: 2;
       margin: 0;
+      margin-top: 20px;
+      padding-left: 30px;
+    }
+    &__item {
+      padding-right: 5px;
     }
     &__image {
       display: block;
-      margin-top: -212px;
-      margin-left: -235px;
-      z-index: -1;
       margin: 0;
       width: 100%;
     }
-    &__box2{
+    &__box2 {
       display: flex;
       flex-direction: column;
+      position: relative;
     }
     &__box2-text {
-      margin-top: 108px;
       margin: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding-left: 15px;
+      margin-top: 20px;
     }
-    &__box2-text--1 {
-      margin-top: 94px;
-      margin-left: 30px;
-      margin: 0;
+    &__box2-text--1{
+      margin-top: 20px;
     }
-    &__box2-text--2 {
-      margin-top: 86px;
-      margin-left: 30px;
-      margin: 0;
-    }
-    &__box2-text--3 {
-      margin-top: 58px;
-      margin-left: 30px;
-      margin: 0;
-    }
-    &__box2-text--4 {
-      margin-top: 36px;
-      margin-left: 30px;
-      margin: 0;
+    &__box2-text--3{
+      max-width:300px;
+      width: 100%;
     }
     &__box2-image1 {
       display: block;
-      margin-top: 93px;
-      margin-left: 369px;
+      width: 100%;
       margin: 0;
+      margin-top: 60px;
     }
     &__box2-image2 {
       display: block;
-      margin-top: 70px;
-      margin-left: 30px;
       margin: 0;
+      margin-top: 60px;
     }
     &__box2-image3 {
       display: block;
-      margin-top: 36px;
-      margin-left: 397px;
       margin: 0;
+      width: 100%;
+      margin-top: 60px;
     }
     &__box2-image4 {
       display: block;
-      margin-top: 36px;
-      margin-left: 30px;
       margin: 0;
+      width: 100%;
+      margin-top: 60px;
+    }
+    &__btn{
+      margin-top: 30px;
     }
   }
 }
